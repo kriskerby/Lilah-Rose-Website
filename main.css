@@ -1,0 +1,31 @@
+/* body {
+  font-style: oblique;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+} */
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  padding: 0px;
+  margin-bottom: 20;
+  font-family: 'Amatic SC', cursive;
+  justify-content: center;
+}
+
+.links {
+    font-weight: 700;
+    font-family: "Amatic SC", cursive;
+}
+
+.links:hover {
+  display: flex;
+  margin-top: 5px;
+  box-shadow: 0px 0px 10px pink;
+  font-family: "Amatic SC", cursive;
+  justify-content: center;
+}
