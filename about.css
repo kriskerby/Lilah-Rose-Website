@@ -33,25 +33,33 @@ body {
     font-size: 40px;
   }
 
-  .homebtn {
-    border: 1px solid #000;
-    width: 10%;
+  div.links:hover {
+    text-decoration: none;
     margin: auto;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: "1942 Report";
-    font-size: 30px;
-  }
-
-  .homebtn:hover {
-    margin: auto;
-    display: flex;
-    margin-top: 5px;
+    margin-top: 0.5px;
     box-shadow: 0px 0px 5px rgb(124, 8, 27);
     font-family: "1942 Report";
     justify-content: center;
   }
 
-  a:link {text-decoration: none;}
-  a:visited {text-decoration: none;}
+  .links {
+    /* border: 1px solid #000; */
+    width: 201px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-family: "1942 Report";
+    justify-content: center;
+    font-size: 30px;
+    padding: 5px;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }

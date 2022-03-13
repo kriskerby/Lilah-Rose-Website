@@ -1,6 +1,4 @@
 window.addEventListener("DOMContentLoaded", () => {
-    
-
   const image = document.querySelector(".image");
 
   async function imageLoad () {
